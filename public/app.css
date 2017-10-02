@@ -10,6 +10,19 @@ body{
     background-color: rgba(209, 209, 209, 0.95);
 }
 
+.carousel {
+    width:640px;
+    height:360px;
+    margin: auto;
+    min-height: 640px;
+    max-height: 360px;
+}
+
+.carousel-caption{
+    bottom: 5%;
+    transform: translateY(-50%);    
+}
+
 .row{
     background-color: rgb(232, 232, 232);
     border-radius: 10px;
